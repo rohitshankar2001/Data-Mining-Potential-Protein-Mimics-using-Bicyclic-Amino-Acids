@@ -15,5 +15,10 @@ Below are some bicyclic amino acids created by the script created:<br>
 <img src="https://user-images.githubusercontent.com/115378538/210923789-daead1cd-9b19-4f59-a679-9c368226f71a.png" width="400" height="200">
 
 # Step 2: Conformational Sampling using Schrodinger Maestro
-Each SMILES file of the 640 bicyclic amino acids was placed into Maestro with the intent to collect conformers. The goal of conformational sampling was to obtain mol2 files which describe different orientations the bicyclic amino acid could be given specific settings. More information about settings can be found in the conformational sampling folder. 
+Each SMILES file of the 640 bicyclic amino acids was placed into Maestro with the intent to collect conformers. The goal of conformational sampling was to obtain mol2 files which describe different orientations the bicyclic amino acid could be given specific settings. More information about settings can be found in the conformational sampling folder. <br>
+<br>
+Example of 3d conformer generated from conformational sampling: <br>
+
+<img src="https://user-images.githubusercontent.com/115378538/210926145-c1bd356b-073f-4a49-b5fa-84b14d2eafe6.png" width=40% height=auto>
+
 
