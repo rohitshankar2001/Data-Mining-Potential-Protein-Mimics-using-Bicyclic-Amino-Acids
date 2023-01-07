@@ -21,4 +21,11 @@ Example of 3d conformer generated from conformational sampling: <br>
 
 <img src="https://user-images.githubusercontent.com/115378538/210926145-c1bd356b-073f-4a49-b5fa-84b14d2eafe6.png" width=40% height=auto>
 
+# Step 3: File modification from mol2 to pdb
+For the next step to work correctly, each conformer mol2 file needs to be converted to the protein data bank file type. This involves iterating through all the conformers and altering residue and atom ID to match that of the pdb file type. More information can be found in the folder
+
+# Step 4: Overlay of conformers with protein to test possibility of mimic
+Each conformer is overlayed using the pymol library align function. The align function returns the RMSD of the conformer when overlayed with a given protein. In the folder the protein Urease and GDNF are tested to find good overlays. The best overlay for GDNF yielded a RMSD of roughly 2. Further testing is required to see if bicyclic peptide could be a mimic. <br>
+Below is example of an alignment:
+![image](https://user-images.githubusercontent.com/115378538/211127847-4ff5c707-b12d-416c-b5db-56884e4f0041.png)
 
